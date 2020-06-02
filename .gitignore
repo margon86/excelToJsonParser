@@ -1,0 +1,7 @@
+# Eclipse IDE: Archivos de configuracion
+.classpath
+.project
+.settings/
+
+# Maven: Archivos compilados
+target/
