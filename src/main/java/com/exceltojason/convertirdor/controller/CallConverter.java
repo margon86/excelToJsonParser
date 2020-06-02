@@ -33,7 +33,7 @@ public class CallConverter {
 			ParserExcelToJson p = new ParserExcelToJson();
 			String retorno = p.parseador(excelFilePath,jsonFilePath);
 			if(retorno.equals("OK")) {
-				logger.info("Proceso finalizado con exito");
+				logger.info("Proceso finalizado con exito!");
 			}else {
 				logger.error(retorno);
 			}
